@@ -1,5 +1,5 @@
 - name: "Demo EVE-NG with ANSIBLE"
-  hosts: switches
+  hosts: [all]
   gather_facts: no
 
   tasks:
