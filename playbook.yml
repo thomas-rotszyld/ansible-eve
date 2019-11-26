@@ -1,0 +1,13 @@
+- name: "Demo EVE-NG with ANSIBLE"
+  hosts: switches
+  gather_facts: no
+
+  tasks:
+
+    - name: Merge provided configuration with device configuration
+      ios_vlans:
+        config:
+          - name: Vlan_10
+            vlan_id: 10
+            state: active
+            shutdown: disabled
