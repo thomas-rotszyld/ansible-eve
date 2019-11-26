@@ -9,5 +9,5 @@
       config:
         - name: Vlan_10
           vlan_id: 10
-          state: active
-          shutdown: disabled
+          state: present
+          
