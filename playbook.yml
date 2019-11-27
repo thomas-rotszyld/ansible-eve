@@ -6,7 +6,7 @@
   tasks:
   - name: Merge provided configuration with device configuration
     ios_vlan:
-      name: Vlan_20
-      vlan_id: 20
+      name: Vlan_30-brice
+      vlan_id: 30
       state: present
 
